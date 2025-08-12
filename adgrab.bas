@@ -1,8 +1,9 @@
 ' *** AD-GRAB ***
 ' 1: Right-click on an add on Youtube.
 ' 2: Copy-paste "debug info"
-' 3: After the beep your URL is copied to the clipboard.
-' 4: Paste the URL in your browser.
+' 3: Run Adgrab.
+' 4: After the beep your URL is copied to the clipboard.
+' 5: Paste the URL in your browser.
 
 _Title "Ad grabber"
 Screen _NewImage(1, 1, 8)
@@ -29,4 +30,5 @@ If natxt$ = "" Then Sound 44, 2: _Delay 1: System
 Sound 1000, 1
 _Delay 2
 System
+
 
